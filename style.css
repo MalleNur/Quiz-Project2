@@ -35,7 +35,7 @@ body{
     outline: none;
     border: none;
     border-radius: 5px;
-    background: lightgreen;
+    background: darkgreen;
     cursor: pointer;
 }
 
@@ -83,8 +83,7 @@ body{
     margin: 0 5px;
     height: 40px;
     width: 100px;
-    border: 1px solid lightgreen;
-    background: lightgreen;
+    border: 1px solid darkgreen transparent;
     border-radius: 5px;
     color: #fff;
     font-size: 16px;
@@ -92,4 +91,12 @@ body{
     cursor: pointer;
 }
 
-.buttons button
+.buttons button.quit{
+    color: darkgreen;
+    border-color: darkgreen;
+}
+
+.buttons button.quit{
+    color: darkgreen;
+    border-color: darkgreen;
+}
