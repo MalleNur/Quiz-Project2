@@ -130,3 +130,15 @@ body{
     position: relative;
     box-shadow: 0 4px 6px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%)
 }
+
+.quiz-title{
+    text-align: center;
+    font-size: 2rem;
+}
+.quiz-score{
+    text-align: right;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: 5px solid darkgray;
+    margin-bottom: 1rem;
+}
