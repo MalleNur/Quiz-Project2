@@ -91,12 +91,23 @@ body{
     cursor: pointer;
 }
 
-.buttons button.quit{
-    color: darkgreen;
-    border-color: darkgreen;
+.buttons button.restart{
+    color: #fff;
+    background: darkgreen;
+}
+
+.buttons button.restart:hover{
+    background: rgb(0, 30, 0);
+
 }
 
 .buttons button.quit{
     color: darkgreen;
     border-color: darkgreen;
+}
+
+.buttons button.quit:hover{
+    color: #fff;
+    background: darkgreen;
+
 }
