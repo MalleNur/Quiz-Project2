@@ -186,19 +186,36 @@ body{
     background-color: grey;
     color: #000;
     border-color: grey;
-    box-shadow: 0 4px 0 0 rgb(80, 79, 79);
+    box-shadow: 0 4px 0 0 rgb(100, 99, 99);
 }
 .quiz-options li:active{
     transform: scale(0.98)
 }
 
+/* selected button */
+
 .selected{
     background-color: grey!important;
     color: #000!important;
     border-color: grey!important;
-    box-shadow: 0 4px 0 0 rgb(81, 81, 81)!important;
+    box-shadow: 0 4px 0 0 rgb(100, 99, 99)!important;
 }
 
 .quiz-foot button{
-    
+    border: none;
+    border-radius: 0.6rem;
+    outline: 0;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: .6rem 1rem;
+    margin: 0 auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    background-color: grey;
+    color: #000;
+    letter-spacing: 2px;
+    transition: all 300ms ease-in-out;
+    box-shadow: 0 4px 0 0 rgb(99, 99, 99);
 }
