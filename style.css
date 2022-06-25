@@ -172,7 +172,7 @@ body{
 }
 .quiz-options li{
     border-radius: 0.5rem;
-    font-weight: 610;
+    font-weight: 595;
     margin: .8rem 0;
     padding: .45rem 1.2rem;
     cursor: pointer;
@@ -186,5 +186,9 @@ body{
     background-color: grey;
     color: #000;
     border-color: grey;
-    box-shadow: 0 4px 0 0 #bbb;
+    box-shadow: 0 4px 0 0 rgb(80, 79, 79);
 }
+.quiz-options li:active{
+    transform: scale(0.98)
+}
+
