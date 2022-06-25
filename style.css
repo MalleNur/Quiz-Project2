@@ -192,3 +192,13 @@ body{
     transform: scale(0.98)
 }
 
+.selected{
+    background-color: grey!important;
+    color: #000!important;
+    border-color: grey!important;
+    box-shadow: 0 4px 0 0 rgb(81, 81, 81)!important;
+}
+
+.quiz-foot button{
+    
+}
