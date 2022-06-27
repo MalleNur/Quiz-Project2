@@ -1,6 +1,8 @@
 // https://opentdb.com/api.php?amount=10&category=12&difficulty=medium&type=multiple
 
 
+const _question = document.getElementById('question');
+const _options = document.querySelector('.quiz-options');
 
 async function loadQuestion(){
     const APIUrl = 'https://opentdb.com/api.php?amount=10&category=12&difficulty=medium&type=multiple';
