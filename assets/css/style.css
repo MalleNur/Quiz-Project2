@@ -11,15 +11,7 @@
 
 body{
     font-family: 'Anek Malayalam', sans-serif;
-    color: #000;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    background: url(../assets/images/pexels-steve-johnson-860662.jpg) center center no-repeat;
-    background-size: cover;
-    overflow: hidden;
+    background-color: grey;
 }
 
 
@@ -44,13 +36,15 @@ body{
     cursor: pointer;
 }
 
+.rules
 .info_box{
-    display: none;
+    
     width: 540px;
     background: #fff;
     border-radius: 5px;
 }
 
+.rules
 .info_box .info_title{
     height: 60px;
     width: 100%;
@@ -62,6 +56,7 @@ body{
     font-weight: 600;
 }
 
+.rules
 .info_box .info_list{
     padding: 15px 35px;
 }
@@ -108,12 +103,12 @@ body{
 
 }
 
-.buttons button.quit{
+.buttons .quit{
     color: darkgreen;
     border-color: darkgreen;
 }
 
-.buttons button.quit:hover{
+.buttons .quit:hover{
     color: #fff;
     background: darkgreen;
 
@@ -127,7 +122,7 @@ body{
 }
 
 .wrapper{
-    display: none;
+    
     background-color: #fff;
     padding: 1.5rem 4rem 3rem 4rem;
     width: 605px;
