@@ -8,7 +8,17 @@
 
 }
 
+body {
+    font-family: 'Anek Malayalam', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
 
+/*
 body{
     font-family: 'Anek Malayalam', sans-serif;
     background-color: grey;
@@ -22,7 +32,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
-/* Start Quiz Button Styling */
+/* Start Quiz Button Styling 
 .start_btn button{
     display: none;
     font-size: 25px;
@@ -114,7 +124,7 @@ body{
 
 }
 
-/* centering */
+/* centering 
 .flex{
     display: flex;
     align-items: center;
@@ -194,7 +204,7 @@ body{
     transform: scale(0.98)
 }
 
-/* selected button */
+/* selected button 
 
 .selected{
     background-color: grey!important;
@@ -235,7 +245,7 @@ body{
     display: none;
 }
 
-/* styling mobile format */
+/* styling mobile format 
 
 @media(max-width: 675px){
     .quiz-title{
@@ -252,3 +262,4 @@ body{
         font-size: 1rem;
     }
 }
+*/
