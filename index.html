@@ -8,19 +8,19 @@
         <!--- fontawesome icons cdn --->
         <script src="https://kit.fontawesome.com/6b1eb17684.js" crossorigin="anonymous"></script>
         <!-- custom css -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
 
-        <!-- Home Page -->
+        <!-- Homepage -->
         <section class="homepage-section" id="homepage_section">
             <div class="homepage-container">
                 <h1 class="heading">Music Quiz</h1>
-                <hr class="line">
+                <hr class="text">
                 <p><strong>Do you think you are a music guru?
                 <br>
                 Take the quiz and test your knowledge!</strong></p>
-                <div class="home-buttons">
+                <div class="homepage-buttons">
                     <button type="button" id="play-button" class="btn">Play</button>
                     <button type="button" id="rule-button" class="btn">Rules</button>
                     <button type="button" id="leader-button" class="btn">LeaderBoard</button>
@@ -30,10 +30,9 @@
 
         <!-- Rules Box -->
         <section id="rules">
-        <div class="info_box">
-            <div class="info_title">
-                <span>Rules of this Quiz</span>
-            </div>
+            <div class="rules-container" id="rules_container">
+        <div class="rolex">
+                <h1>Rules of this Quiz</h1>
             <div class="info_list">
                 <div class="info">1. Once you select your answer, you can't change your answer.</div>
                 <div class="info">2. For every correct answer, you get a point.</div>
@@ -43,29 +42,45 @@
             <div class="buttons">
                 <button id="exit" class="exit-button">Exit</button>
             </div>
+            </div>
         </div>
     </section>
 
         <!-- The Quiz Game -->
         <section id="game-section">
-        <div class = "wrapper">
-            <div class="quiz-container">
+            <div class="quiz-container" id="quiz-container">
+                <div id="game-area" class="rolex">
                 <div class="quiz-head">
-                    <h1 class="quiz-title">Quiz Game</h1>
-                    <div class="quiz-score flex">
-                        <span id="correct-score">0</span>/<span id ="total-question">10</span>
+                    <div class="processText">
+                    <h3>Question: <span id="processCounter"></span></h3>
+                </div>
+                    <div class="score-count">
+                        <h3>Score: <span id="score">0</span></h3>
                     </div>
                 </div>
+            
 
-                <div class="quiz-body">
-                    <h2 class="quiz-question" id = "question"> Which artist has the most number 1 Billboard Hot 100?<br><span class = "category">Music</span></h2>
-                    <ul class="quiz-options">
-                        <li>1. Taylor Swift</li>
-                        <li>2. The Beatles</li>
-                        <li>3. Rihanna</li>
-                        <li>4. Ed Sheeran</li>
-                    </ul>
-                    <div id="result">
+                <div class="question-container">
+                    <p class="question" id = "question"> Random Questions</p>
+                </div>
+                    <div class="option-container option" data-number="1">
+                        <p>Option 1</p>
+                    </div>
+                    <div class="option-container option" data-number="2">
+                        <p>Option 2</p>
+                    </div>
+                    <div class="option-container option" data-number="3">
+                        <p>Option 3</p>
+                    </div>
+                    <div class="option-container option" data-number="4">
+                        <p>Option 4</p>
+                    </div>
+                    <div class="buttons">
+                        <button id="exit1" class="exit-button">Exit</button>
+                    </div>
+                    </div>
+                
+                    </section>
                         <!-- result here -->
                     </div>
                 </div>
