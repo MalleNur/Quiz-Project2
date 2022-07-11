@@ -20,11 +20,12 @@ body {
 
 #homepage-section {
     background-color: rgb(249, 188, 164);
-    width: 610px;
+    width: 710px;
     border: white 2.98px solid;
     padding: 19px;
     justify-content: center;
     display: flex;
+    flex-direction: column;
     text-align: center;
     border-radius: 2.98px;
     max-width: 74%;
@@ -49,10 +50,33 @@ hr {
 
 .homepage.container p {
     text-transform: uppercase;
-    padding-top: 19px;
+    padding-top: 24px;
     line-height: 19px;
     font-weight: 199px;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
 }
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    font-family: "permanent marker", cursive;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 5px;
+    width: 89%;
+    max-width: 74%;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border: black solid 3px;
+}
+
 
 
 /*
