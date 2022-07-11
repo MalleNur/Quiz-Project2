@@ -18,6 +18,43 @@ body {
     align-items: center;
 }
 
+#homepage-section {
+    background-color: rgb(249, 188, 164);
+    width: 610px;
+    border: white 2.98px solid;
+    padding: 19px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    border-radius: 2.98px;
+    max-width: 74%;
+}
+
+.homepage-container {
+    margin: 24px 0 24px 0;
+}
+
+#heading {
+    font-family: "permanent marker", cursive;
+    font-size: 3.74rem;
+}
+
+hr {
+    background-color: #000;
+    border-width: 0;
+    border-radius: 1px;
+    height: 4px;
+    width: 498px;
+}
+
+.homepage.container p {
+    text-transform: uppercase;
+    padding-top: 19px;
+    line-height: 19px;
+    font-weight: 199px;
+}
+
+
 /*
 body{
     font-family: 'Anek Malayalam', sans-serif;
