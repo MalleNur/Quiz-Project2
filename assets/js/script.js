@@ -2,15 +2,15 @@
 
 const open = document.getElementById('rule-button');
 const rules_container = document.getElementById('rules_container');
-const close = document.getElementsByClassName('exit');
+const close = document.getElementsById('exit');
 
 open.addEventListener('click', () => {
     rules_container.classList.add('show');
-})
+});
 
 close.addEventListener('click', () => {
     rules_container.classList.remove('show');
-})
+});
 
 
 
