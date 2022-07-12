@@ -1,4 +1,23 @@
-// https://opentdb.com/api.php?amount=10&category=12&difficulty=medium&type=multiple
+// Rules button to open rules section and button to exit
+
+const open = document.getElementById('rule-button');
+const rules_container = document.getElementById('rules_container');
+const close = document.getElementsByClassName('exit');
+
+open.addEventListener('click', () => {
+    rules_container.classList.add('show');
+})
+
+close.addEventListener('click', () => {
+    rules_container.classList.remove('show');
+})
+
+
+
+
+
+
+/* // https://opentdb.com/api.php?amount=10&category=12&difficulty=medium&type=multiple
 
 
 const _question = document.getElementById('question');
@@ -27,4 +46,4 @@ function showQuestion(data){
             `).join('')}
 }
 
-loadQuestion();
+loadQuestion(); */

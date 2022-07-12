@@ -77,6 +77,79 @@ hr {
     border: black solid 3px;
 }
 
+/* Rules section */
+
+.rules-container {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.rules-container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.rolex {
+    background-color: rgb(249, 188, 164);
+    width: 699px;
+    border: #fff 3px solid;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 2.99px;
+    max-width: 74%;
+}
+
+.rolex h1 {
+    font-family: "permanent marker", cursive;
+    font-size: 1.99rem;
+    padding-top: 9px;
+}
+
+.infolist info {
+    list-style-position: inside;
+    list-style-type: decimal;
+    padding-top: 19px;
+    line-height: 29px;
+    font-weight: 199;
+    font-size: 1.2rem;
+}
+
+/* Exit button */
+
+.buttons {
+    display: flex;
+    justify-content: end;
+}
+
+.exit-button {
+    background-color: #000;
+    color: #fff;
+    font-family: "permanent marker", cursive;
+    font-size: 1.4rem;
+    border-radius: 39px;
+    padding: 5px;
+    width: 89px;
+    text-transform: uppercase;
+}
+
+.exit-button:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border: #000 solid 3px;
+}
 
 
 /*
