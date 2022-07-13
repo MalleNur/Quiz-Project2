@@ -124,7 +124,7 @@ let questions = [
     {
         question: 'What was Britney Spears debut single?',
         option1: "Oops!... I Did It Again",
-        option2: "Toxic"
+        option2: "Toxic",
         option3: "(You Drive Me) Crazy",
         option4: "...Baby One More Time",
         correct: 4,
@@ -134,12 +134,26 @@ let questions = [
         option1: "Paul McCartney",
         option2: "Ringo Starr",
         option3: "John Lennon",
-        option4: "George Harrison"
+        option4: "George Harrison",
         correct: 1,
     },
    
 
 ]
+
+// Play button to open and button to exit
+
+const openLevel = document.getElementById('play-button');
+const level_container = document.getElementById('level_container');
+const closeLevel = document.getElementById('exit');
+
+openLevel.addEventListener('click', () => {
+    level_container.classList.add('show');
+});
+
+closeLevel.addEventListener('click', () => {
+    level_container.classList.remove('show');
+});
 
 
 
