@@ -205,6 +205,35 @@ hr {
     opacity: 1;
 }
 
+/* Multiple option questions button */
+
+.option-container {
+    background: #000;
+    color: #fff;
+    font-family: "overpass", sans-serif;
+    font-size: 1.55rem;
+    border-radius: 5.1px;
+    padding: 5.1px;
+    width: 100%;
+}
+
+.correct {
+    background: #fff;
+    color: #000;
+    border: green solid 4px;
+}
+
+.incorrect {
+    background: #fff;
+    color: #000;
+    border: red solid 4px;
+}
+
+
+
+
+
+
 /*
 body{
     font-family: 'Anek Malayalam', sans-serif;
