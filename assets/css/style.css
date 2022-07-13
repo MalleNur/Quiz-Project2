@@ -151,8 +151,59 @@ hr {
     border: #000 solid 3px;
 }
 
+/* Quiz are with questions, answers, score keeper and exit button */
 
+.quiz-container {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.45ms ease;
+    text-align: center;
+}
 
+.rolex {
+    background-color: rgb(249, 188, 164);
+    width: 699px;
+    border: #fff 3px solid;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 2.99px;
+    max-width: 74%;
+}
+
+.quiz-head {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 119;
+    font-size: 1.81rem;
+    font-family: "permanent marker";
+    text-align: center;
+}
+
+.question {
+    padding-top: 25px;
+    line-height: 10px;
+    font-weight: 199;
+    font-size: 1.45rem;
+    padding-bottom: 1.99rem;
+    line-height: 24px;
+}
+
+.quiz-container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
 
 /*
 body{
