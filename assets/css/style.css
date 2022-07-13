@@ -229,6 +229,82 @@ hr {
     border: red solid 4px;
 }
 
+/* Finished score container */
+
+.quiz-finished {
+    justify-content: center;
+    display: none;
+    width: 100vw;
+}
+
+.quiz-completed p {
+   text-transform: uppercase;
+   font-size: 1.55rem;
+   font-weight: 199;
+   margin-top: 10px;
+}
+
+.quiz-finished.show {
+   pointer-events: auto;
+   opacity: 1;
+}
+
+input {
+   width: 19.9rem;
+   padding: 10px;
+}
+
+.exit-button[disabled]:hover {
+   cursor: not-allowed;
+   transform: none;
+}
+
+.play-again-button {
+   background-color: #000;
+   color: #fff;
+   font-family: "permanent marker", cursive;
+   font-size: 1.55rem;
+   border-radius: 41px;
+   width: 181px;
+   height: 41px;
+   text-transform: uppercase;
+   text-align: center;
+   margin-right: 11px;
+}
+
+.play-again-button:hover {
+   background-color: #fff;
+   color: #000;
+   cursor: pointer;
+   border: #000 solid 3px;
+}
+
+.end-button-container {
+   margin-top: 30px;
+   display: flex;
+   justify-content: end;
+}
+
+.insert-username {
+   justify-content: space-between;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 199;
+   font-size: 1.19rem;
+}
+
+.username-form {
+   width: 179px;
+   height: 39px;
+   text-transform: uppercase;
+   background-color: #fff;
+   color: #000;
+   border: #000 solid 2px;
+   border-radius: 39px;
+   margin: 19px 5px;
+   vertical-align: middle;
+}
+
 
 
 
