@@ -224,19 +224,17 @@ closeEndOfQuiz.addEventListener('click', () => {
     showHomepage.style.display="flex";
 });
 
+// To erase leaderboard //
+eraseLeaderboard.addEventListener('click', () => {
+    localStorage.clear('highscores');
+    window.location.reload();
+});
 
 
 
 
 
 
-function showQuestion(data){
-    let correctAnswer = data.correct_answer;
-    let incorrectAnswer = data.incorrect_answers;
-    let optionsList = incorrectAnswer;
-    optionsList.splice(Math.floor(Math.random() * (incorrectAnswer.length + 1)), 0, correctAnswer);
-    console.log(optionsList);
-    console.log(correctAnswer); //inserting correct answer in random position in the options list
 
     _question.innerHTML =`${data.question} <br> <span class = "category">$ {data.category} </span>`;
     -optionsList.innerHTML = `
