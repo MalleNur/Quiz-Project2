@@ -164,7 +164,7 @@ const eraseLeaderboard = document.getElementById('erase');
 const highScoreList = document.getElementById('highScoreList');
 let show_score_rolex = document.getElementById('quiz_finished');
 
-// Rules button to open rules section and button to exit
+// Rules button to open rules section and button to exit //
 
 openRules.addEventListener('click', () => {
     rules_container.classList.add('show');
@@ -176,7 +176,7 @@ closeRules.addEventListener('click', () => {
     showHomepage.style.display="flex";
 });
 
-// Play button to open quiz and button to exit
+// Play button to open quiz and button to exit //
 
 
 openQuiz.addEventListener('click', () => {
@@ -190,6 +190,19 @@ closeQuiz.addEventListener('click', () => {
     quizContainer.classList.remove('show');
     showHomepage.style.display="flex";
 });
+
+// Open leaderboard with leaderboard button //
+
+openLeaderBoard.addEventListener('click', () => {
+    leaderboard.classList.add('show');
+    hideHomepage.style.display="none";
+});
+
+closeLeaderBoard.addEventListener('click', () => {
+    leaderboard.classList.remove('show');
+    showHomepage.style.display="flex";
+});
+
 
 
 
