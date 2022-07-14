@@ -1,16 +1,3 @@
-// Rules button to open rules section and button to exit
-
-const open = document.getElementById('rule-button');
-const rules_container = document.getElementById('rules_container');
-const close = document.getElementsById('exit');
-
-open.addEventListener('click', () => {
-    rules_container.classList.add('show');
-});
-
-close.addEventListener('click', () => {
-    rules_container.classList.remove('show');
-});
 
 
 // Quiz qestions //
@@ -141,6 +128,34 @@ let questions = [
 
 ]
 
+//Variables for the Quiz
+
+let questionCounter = 0
+let pointScore = 0;
+let acceptingAnswers = true;
+let currentQuestions = {};
+let availableQuestions = [];
+const SCORE_POINTS = 1;
+const MAX_QUESTIONS = 15;
+
+// Element Varibles
+
+const quizC
+
+// Rules button to open rules section and button to exit
+
+const open = document.getElementById('rule-button');
+const rules_container = document.getElementById('rules_container');
+const close = document.getElementsById('exit');
+
+open.addEventListener('click', () => {
+    rules_container.classList.add('show');
+});
+
+close.addEventListener('click', () => {
+    rules_container.classList.remove('show');
+});
+
 // Play button to open and button to exit
 
 const openLevel = document.getElementById('play-button');
@@ -154,6 +169,7 @@ openLevel.addEventListener('click', () => {
 closeLevel.addEventListener('click', () => {
     level_container.classList.remove('show');
 });
+
 
 
 
