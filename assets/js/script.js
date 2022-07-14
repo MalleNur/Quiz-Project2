@@ -146,7 +146,7 @@ const quizContainer = document.getElementById('quiz_container');
 const openQuiz = document.getElementById('play-button');
 const closeQuiz = document.getElementById('exit1');
 const question = document.getElementById('question');
-const option = document.getElementById('.option');
+const option = Array.from(document.querySelectorAll('.option'));
 const closeEndOfQuiz = document.getElementById('exit2');
 const scoreText = document.getElementById('score');
 const endScore = document.getElementById('end_score');
@@ -176,18 +176,19 @@ closeRules.addEventListener('click', () => {
     showHomepage.style.display="flex";
 });
 
-// Play button to open and button to exit
+// Play button to open quiz and button to exit
 
-const openLevel = document.getElementById('play-button');
-const level_container = document.getElementById('level_container');
-const closeLevel = document.getElementById('exit');
 
-openLevel.addEventListener('click', () => {
-    level_container.classList.add('show');
+openQuiz.addEventListener('click', () => {
+    quizContainer.classList.add('show');
+    hideHomepage.style.display="none";
+    scoreText.innerText = 0;
+    startQuiz()
 });
 
-closeLevel.addEventListener('click', () => {
-    level_container.classList.remove('show');
+closeQuiz.addEventListener('click', () => {
+    quizContainer.classList.remove('show');
+    showHomepage.style.display="flex";
 });
 
 
