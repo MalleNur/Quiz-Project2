@@ -210,7 +210,15 @@ username.addEventListener("keyup", () => {
     saveScore.disabled = !username.value;
 });
 
-// 
+// Play again button to reset and open quiz //
+playAgain.addEventListener('click', () => {
+    quizContainer.classList.add('show');
+    show_score_rolex.style.display="none";
+    scoreText.innerText = 0;
+    startQuiz();
+});
+
+//
 
 
 
