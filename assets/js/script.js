@@ -140,13 +140,31 @@ const MAX_QUESTIONS = 15;
 
 // Element Varibles
 
-const quizC
+const showHomepage = document.getElementById('homepage_section');
+const hideHomepage = document.getElementById('homepage_section');
+const quizContainer = document.getElementById('quiz_container');
+const openQuiz = document.getElementById('play-button');
+const closeQuiz = document.getElementById('exit1');
+const question = document.getElementById('question');
+const option = document.getElementById('.option');
+const closeEndOfQuiz = document.getElementById('exit2');
+const scoreText = document.getElementById('score');
+const endScore = document.getElementById('end_score');
+const saveScore = document.getElementById('saveScore');
+const processCounter = document.getElementById('processCounter');
+const playAgain = document.getElementById('playAgain');
+const username = document.getElementById('username');
+const rules_container = document.getElementById('rules_container');
+const openRules = document.getElementById('rule-button');
+const closeRules = document.getElementById('exit');
+const leaderboard = document.getElementById('leaderboard');
+const openLeaderBoard = document.getElementById('leader-button');
+const closeLeaderBoard = document.getElementById('exit3');
+const eraseLeaderboard = document.getElementById('erase');
+const highScoreList = document.getElementById('highScoreList');
+let show_score_rolex = document.getElementById('quiz_finished');
 
 // Rules button to open rules section and button to exit
-
-const open = document.getElementById('rule-button');
-const rules_container = document.getElementById('rules_container');
-const close = document.getElementsById('exit');
 
 open.addEventListener('click', () => {
     rules_container.classList.add('show');
