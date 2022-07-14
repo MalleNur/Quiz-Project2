@@ -231,6 +231,16 @@ eraseLeaderboard.addEventListener('click', () => {
 });
 
 
+// Function - start quiz, setting score and question count //
+Function startQuiz () {
+    availableQuestions = [...questions];
+    questionCounter = 0;
+    pointScore = 0;
+    renderNewQuestions();
+}
+
+
+
 
 
 
