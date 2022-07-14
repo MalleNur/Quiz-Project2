@@ -203,16 +203,19 @@ closeLeaderBoard.addEventListener('click', () => {
     showHomepage.style.display="flex";
 });
 
+// Enter the username so that the save username button to be enabled //
+
+username.addEventListener("keyup", () => {
+    console.log(username.value);
+    saveScore.disabled = !username.value;
+});
+
+// 
 
 
 
 
 
-/* // https://opentdb.com/api.php?amount=10&category=12&difficulty=medium&type=multiple
-
-
-const _question = document.getElementById('question');
-const _options = document.querySelector('.quiz-options');
 
 async function loadQuestion(){
     const APIUrl = 'https://opentdb.com/api.php?amount=10&category=12&difficulty=medium&type=multiple';
