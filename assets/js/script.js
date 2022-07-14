@@ -166,12 +166,14 @@ let show_score_rolex = document.getElementById('quiz_finished');
 
 // Rules button to open rules section and button to exit
 
-open.addEventListener('click', () => {
+openRules.addEventListener('click', () => {
     rules_container.classList.add('show');
+    hideHomepage.style.display="none";
 });
 
-close.addEventListener('click', () => {
+closeRules.addEventListener('click', () => {
     rules_container.classList.remove('show');
+    showHomepage.style.display="flex";
 });
 
 // Play button to open and button to exit
