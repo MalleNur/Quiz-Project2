@@ -115,6 +115,7 @@ body {
     font-family: "permanent marker", cursive;
     font-size: 1.99rem;
     padding-top: 9px;
+    margin-bottom: 10px;
 }
 
 .infolist info {
@@ -153,7 +154,7 @@ body {
 
 /* Quiz are with questions, answers, score keeper and exit button */
 
-.quiz-container {
+.quiz_container {
     height: 100vh;
     width: 100vw;
     position: fixed;
@@ -193,14 +194,15 @@ body {
 
 .question {
     padding-top: 25px;
-    line-height: 10px;
+    line-height: 25px;
     font-weight: 199;
     font-size: 1.45rem;
     padding-bottom: 1.99rem;
-    line-height: 24px;
+    
 }
 
-.quiz-container.show {
+
+.quiz_container.show {
     pointer-events: auto;
     opacity: 1;
 }
@@ -215,6 +217,9 @@ body {
     border-radius: 5.1px;
     padding: 5.1px;
     width: 100%;
+    line-height: 30px;
+    margin-bottom: 15px;
+    
 }
 
 .correct {
@@ -258,6 +263,7 @@ input {
    cursor: not-allowed;
    transform: none;
 }
+
 
 .play-again-button {
    background-color: #000;
@@ -330,7 +336,7 @@ input {
  .leader-board ul {
     font-size: 1.51rem;
     text-transform: uppercase;
-    line-height: 31px;
+    line-height: 40px;
  }
 
 
