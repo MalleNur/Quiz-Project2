@@ -65,4 +65,4 @@ eraseLeaderboard.addEventListener('click', () => {
     window.location.reload();
 });
 
-export default rules;
+/* export default rules; */

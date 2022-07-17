@@ -113,4 +113,4 @@ document.addEventListener("DOMContentLoaded", function () {
     startQuiz();
 });
 
-export default functions;
+/* export default functions; */
