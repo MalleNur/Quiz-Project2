@@ -1,3 +1,4 @@
+
 //Element Variables
 const hideHomepage = document.getElementById('homepage_section');
 const showHomepage = document.getElementById('homepage_section');
