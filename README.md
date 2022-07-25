@@ -1,5 +1,6 @@
-# Quiz-Project2
-Quiz Game
+# Quiz-Project 2
+
+## Quiz Game
 A trivia quiz. The quiz is for music lovers that wants to test their knowledge.
 
 # User Experience (UX)
@@ -16,49 +17,71 @@ Goals for a first time user:
 - I want the user to be able to clear their highscore from the leaderboard.
 
 # Wireframes
-- Wireframe Website Homepage
+## Wireframe Website Homepage
 
-https://share.balsamiq.com/c/iubcSjFfo1uMQXz2RLjME6.png
+![](assets/images/Homepage-website.png)
 
-- Wireframe Mobile Homepage
+## Wireframe Mobile Homepage
 
-https://share.balsamiq.com/c/d1hgUL6Z1mwsHWR6vwr5Ex.png
+![](assets/images/Homepage-mobile.png)
 
-- Wireframe Website Quiz game
+## Wireframe Website Quiz game
 
-https://share.balsamiq.com/c/9Yby6t4psgPeVggpBk2XkD.png
+![](assets/images/Quiz-website.png)
 
-- Wireframe Mobile Quiz game
+## Wireframe Mobile Quiz game
 
-https://share.balsamiq.com/c/nxUF9ySs29eUwDoc9zSGyy.png
+![](assets/images/Quiz-mobile.png)
 
-- Wireframe Website End of Quiz game
+## Wireframe Website End of Quiz game
 
-https://share.balsamiq.com/c/vvjaN47H5AUysu7eEWoEVx.png
+![](assets/images/EndOfQuiz-website.png)
 
-- Wireframe Mobile End of Quiz game
+## Wireframe Mobile End of Quiz game
 
-https://share.balsamiq.com/c/uuue5D8RM99XkPrypbv9g4.png
+![](assets/images/EndOfQuiz-mobile.png)
 
-- Wireframe Website Rules
+## Wireframe Website Rules
 
-https://share.balsamiq.com/c/pXaD4ndAFf5HhDFgN4nBLF.png
+![](assets/images/Rules-website.png)
 
-- Wireframe Mobile Rules
+## Wireframe Mobile Rules
 
-https://share.balsamiq.com/c/tJrPdwgfaopa8t1hZ8bJ7B.png
+![](assets/images/Rules-mobile.png)
 
-- Wireframe Website Leaderboard
+## Wireframe Website Leaderboard
 
-https://share.balsamiq.com/c/dqdAquNmEMvvmqVbyhdmvh.png
+![](assets/images/Leaderboard-website.png)
 
-- Wireframe Mobile Leaderboard
+## Wireframe Mobile Leaderboard
 
-https://share.balsamiq.com/c/widfLGZHLFHXBs2uYC5opT.png
+![](assets/images/Leaderboard-mobile.png)
 
 # Features
 
+## Homepage
+
+![](assets/images/Homepage-Quiz.png)
+
+## Quiz Game
+
+![](assets/images/Quiz-game.png)
+
+## Rules
+
+![](assets/images/Quiz-rules.png)
+
+## End of Quiz
+
+![](assets/images/Final-Quiz-Score.png)
+
+## Leaderboard
+
+![](assets/images/Leaderboard.png)
+
 # Flowchart
+
+![](assets/images/Kopia%20av%20Flowchart%20(1).png)
 
 # API
 ## Trivia API
@@ -85,8 +108,10 @@ The Open Trivia Database provides a completely free JSON API for use in programm
 # Validator Testing
 
 W3C Markup Validator was used to check the markup validity of the HTML for technical quality and correctness, and no errors found.
+![](assets/images/W3C%20Validator.png)
 
 W3C CSS Validation Service was used to check the markup validity of the CSS for technical quality and correctness, and no errors found.
+![](assets/images/W3C%20CSS%20Validator.png)
 
 Chromes Lighthouse
 
@@ -120,4 +145,11 @@ View Live Project Here
 I have thank my Code Institute mentor Narender who have helped along the way and given me guidance and support in my projects.
 
 I have also taken inspiration and lessons from some youtube channels that gave me a couple of informtion about how to code in javascript.
+Here is a couple of them:
+
+https://www.youtube.com/watch?v=pQr4O1OITJo
+
+https://www.youtube.com/watch?v=CqddbIrEM5I
+
+https://www.youtube.com/watch?v=bGQ9sIHZdlo
 
