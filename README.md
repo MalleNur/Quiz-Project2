@@ -16,7 +16,28 @@ Goals for a first time user:
 - I want the user to be able to go back and see the logged results in the leaderboard
 - I want the user to be able to clear their highscore from the leaderboard.
 
+# Design
+
+## Color Scheme 
+  -  rgb(249, 188, 164)
+  -  White #fff
+  -  Black #000
+  -  Green rgb(0, 128, 0)
+  -  Red rgb(255, 0, 0)
+
+## Typography
+
+  - Anek Malayalam
+  - Sans-serif
+  
+The main font used for the website is Anek Malayalam with sans-serif as the fallback. I also used the permanent marker and overpass fonts to add a unique twist to the font. 
+To keep things simple and clean, Anek Malayalam is the only font used throuhout the website, but with diffrent font weight.
+This fonts is both modern, readble and suits the project overall.
+ 
+
 # Wireframes
+
+- The wireframes were created using [Balsamiq](https://balsamiq.cloud/). And they were designed for mobile, tablets and desktop.
 
 ## Wireframe Website/Mobile Homepage
 
