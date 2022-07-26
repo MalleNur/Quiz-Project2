@@ -123,12 +123,12 @@ The Open Trivia Database provides a completely free JSON API for use in programm
 ## Frameworks, Libraries and Programs Used
 
 - [Font Awesome](https://fontawesome.com/)
-- [Remicon](https://fontawesome.com/)
-- Git
-- Github
-- Gitpod
-- Google Chrome DevTools
-- Google Fonts
+- [Remicon](https://remixicon.com/)
+- [Git](https://git-scm.com/)
+- [Github](https://github.com/)
+- [Gitpod](https://www.gitpod.io/)
+- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- [Google Fonts](https://fonts.google.com/)
 
 # Validator Testing
 
@@ -139,6 +139,8 @@ W3C CSS Validation Service was used to check the markup validity of the CSS for 
 ![](assets/images/W3C%20CSS%20Validator.png)
 
 Chromes Lighthouse
+
+[Font Awesome](https://fontawesome.com/)
 
 # Deployment
 ## Project Setup:
