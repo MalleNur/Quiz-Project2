@@ -3,6 +3,8 @@
 ## Quiz Game
 A trivia quiz. The quiz is for music lovers that wants to test their knowledge.
 
+[View Live Project Here](https://mallenur.github.io/Quiz-Project2/)
+
 # User Experience (UX)
 ## User stories
 
@@ -140,7 +142,7 @@ W3C CSS Validation Service was used to check the markup validity of the CSS for 
 
 Chromes Lighthouse
 
-[Font Awesome](https://fontawesome.com/)
+![](assets/images/Lighthouse%20website.png)
 
 # Deployment
 ## Project Setup:
@@ -166,7 +168,7 @@ Chromes Lighthouse
 
 It may take a few moments for the site to publish, but once live, the box at the top of the page with the site name will turn green and have a Green tick to the left of the link to the live site.
 
-View Live Project Here
+[View Live Project Here](https://mallenur.github.io/Quiz-Project2/)
 
 # Acknowledgement
 I have thank my Code Institute mentor Narender who have helped along the way and given me guidance and support in my projects.
