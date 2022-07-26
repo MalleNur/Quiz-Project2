@@ -122,8 +122,8 @@ The Open Trivia Database provides a completely free JSON API for use in programm
 
 ## Frameworks, Libraries and Programs Used
 
-- Font Awesome
-- Remicon
+- [Font Awesome](https://fontawesome.com/)
+- [Remicon](https://fontawesome.com/)
 - Git
 - Github
 - Gitpod
