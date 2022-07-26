@@ -17,78 +17,82 @@ Goals for a first time user:
 - I want the user to be able to clear their highscore from the leaderboard.
 
 # Wireframes
-## Wireframe Website Homepage
+
+## Wireframe Website/Mobile Homepage
 
 ![](assets/images/Homepage-website.png)
-
-## Wireframe Mobile Homepage
-
 ![](assets/images/Homepage-mobile.png)
 
-## Wireframe Website Quiz game
+## Wireframe Website/Mobile Quiz game
 
 ![](assets/images/Quiz-website.png)
-
-## Wireframe Mobile Quiz game
-
 ![](assets/images/Quiz-mobile.png)
 
-## Wireframe Website End of Quiz game
+## Wireframe Website/Mobile End of Quiz game
 
 ![](assets/images/EndOfQuiz-website.png)
-
-## Wireframe Mobile End of Quiz game
-
 ![](assets/images/EndOfQuiz-mobile.png)
 
-## Wireframe Website Rules
+## Wireframe Website/Mobile Rules
 
 ![](assets/images/Rules-website.png)
-
-## Wireframe Mobile Rules
-
 ![](assets/images/Rules-mobile.png)
 
-## Wireframe Website Leaderboard
+## Wireframe Website/Mobile Leaderboard
 
 ![](assets/images/Leaderboard-website.png)
-
-## Wireframe Mobile Leaderboard
-
 ![](assets/images/Leaderboard-mobile.png)
 
 # Features
 
 ## Homepage
 
+A simple homepage with clear navigation where the user can choose between playing the quiz game, reading the rules or going straight to leaderboard.
+The buttons have an effect and turns to white if the user put the mouse over selected button.
+
 ![](assets/images/Homepage-Quiz.png)
 
 ## Quiz Game
+
+The Quiz game page shows a quiz question with 4 different options. If the user chooses a question the option button will either turn green or red depending on if the answer is right or wrong.
+On this page there is a question counter that increases by every question the user answers. There is also a score counter that also increases but only for each correct answer. 
+If the user wants to exit the game, there is a exit button at the bottom right that will take the user to homepage. 
 
 ![](assets/images/Quiz-game.png)
 
 ## Rules
 
+The rules page is very simplistic with clear instructions about how the quiz game should be played. Very straight forward and easy to understand which the user will appreciate. 
+
 ![](assets/images/Quiz-rules.png)
 
 ## End of Quiz
+
+At the end of the quiz the user will encounter a page where they can enter their name to save their score. There will also be an option where the user can either choose to play the game again or exit the game and return to the homepage.
 
 ![](assets/images/Final-Quiz-Score.png)
 
 ## Leaderboard
 
+This page is where the highscores is saved. After the user have saved their score in the end of the quiz. This is the board that will save all the scores up to 6 times, after that the leadng highscores is the scores that will be shown in the leaderboard.
+The user also have a choice to clear the leaderboard or press exit button and return to homepage.
+
 ![](assets/images/Leaderboard.png)
 
 # Flowchart
 
+This is a short flowchart that describes how the quiz game works.
+
 ![](assets/images/Kopia%20av%20Flowchart%20(1).png)
 
 # API
+
 ## Trivia API
 
 The Open Trivia Database provides a completely free JSON API for use in programming projects
 
 # Technology Stack
+
 ## Languages Used
 
 - HTML
@@ -145,6 +149,7 @@ View Live Project Here
 I have thank my Code Institute mentor Narender who have helped along the way and given me guidance and support in my projects.
 
 I have also taken inspiration and lessons from some youtube channels that gave me a couple of informtion about how to code in javascript.
+
 Here is a couple of them:
 
 https://www.youtube.com/watch?v=pQr4O1OITJo
