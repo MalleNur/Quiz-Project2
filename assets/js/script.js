@@ -1,5 +1,4 @@
 import questions from "./questions.js";
-//import {startQuiz, renderNewQuestion, incrementScore, saveHighScore} from "./functions.js";
 import loadRules from "./rules.js";
 
 //Variables for the Quiz
@@ -12,7 +11,7 @@ let availableQuestions = [];
 const SCORE_POINTS = 1;
 const MAX_QUESTIONS = 15;
 
-// Element Varibles
+// Element Varibles Functions
 
 const hideHomepage = document.getElementById('homepage_section');
 const question = document.getElementById('question');
@@ -20,11 +19,55 @@ const option = Array.from(document.querySelectorAll('.option'));
 const scoreText = document.getElementById('score');
 const endScore = document.getElementById('end_score');
 const processCounter = document.getElementById('processCounter');
-const playAgain = document.getElementById('playAgain');
 const username = document.getElementById('username');
 const highScoreList = document.getElementById('highScoreList');
 let show_score_rolex = document.getElementById('quiz_finished');
 
+// Element Variables Rules 
+
+const showHomepage = document.getElementById('homepage_section');
+const quizContainer = document.getElementById('quiz-container');
+const openQuiz = document.getElementById('play-button');
+const closeQuiz = document.getElementById('exit1');
+const closeEndOfQuiz = document.getElementById('exit2');
+const saveScore = document.getElementById('saveScore');
+const playAgain = document.getElementById('playAgain');
+const rules_container = document.getElementById('rules_container');
+const openRules = document.getElementById('rule-button');
+const closeRules = document.getElementById('exit');
+const leaderboard = document.getElementById('leaderboard');
+const openLeaderBoard = document.getElementById('leader-button');
+const closeLeaderBoard = document.getElementById('exit3');
+const eraseLeaderboard = document.getElementById('erase');
+
+
+// Play button to open quiz and button to exit //
+
+openQuiz.addEventListener('click', () => {
+    quizContainer.classList.add('show');
+    hideHomepage.style.display = "none";
+    scoreText.innerText = 0;
+    startQuiz()
+});
+
+closeQuiz.addEventListener('click', () => {
+    quizContainer.classList.remove('show');
+    showHomepage.style.display = "flex";
+});
+
+// Play again button to reset and open quiz //
+playAgain.addEventListener('click', () => {
+    quizContainer.classList.add('show');
+    show_score_rolex.style.display = "none";
+    scoreText.innerText = 0;
+    startQuiz();
+});
+
+// Too close end of quiz //
+closeEndOfQuiz.addEventListener('click', () => {
+    show_score_rolex.style.display = "none";
+    showHomepage.style.display = "flex";
+});
 
 // Functions //
 
@@ -139,7 +182,8 @@ highScoresList.innerHTML = highScores.map(score => {
 // Event listener to start quiz once DOM is loaded //
 document.addEventListener("DOMContentLoaded", function () {
     
-    // initiate rules before everything
-    loadRules();
+// initiate rules before everything
+    loadRules(); 
     startQuiz();
 });
+
